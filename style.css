@@ -1,0 +1,48 @@
+body{
+  margin:0;
+  font-family:Poppins;
+  background:#0f172a;
+  color:white;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+}
+
+.btn{
+  padding:10px 20px;
+  background:linear-gradient(45deg,#00eaff,#8a2be2);
+  border:none;
+  border-radius:20px;
+  color:white;
+  cursor:pointer;
+}
+
+.hero{
+  text-align:center;
+  padding:100px 20px;
+}
+
+.glass{
+  margin:40px;
+  padding:30px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+  box-shadow:0 0 30px rgba(0,234,255,0.2);
+  text-align:center;
+}
+
+li{
+  margin:10px;
+  font-size:18px;
+}
+
+canvas{
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+}
